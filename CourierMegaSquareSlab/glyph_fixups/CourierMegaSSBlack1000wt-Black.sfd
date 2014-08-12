@@ -1,0 +1,525 @@
+SplineFontDB: 3.0
+FontName: CourierMegaSSBlack1000wt-Black
+FullName: Courier Mega SS Black 1000wt Black
+FamilyName: Courier Mega SS Black 1000wt
+Weight: Black
+Copyright: Copyright (c) 2014 by Richard Alexander Hall. Released under the GNU GPL v3 or later with the font exception.
+Version: 1.004 2014
+ItalicAngle: 0
+UnderlinePosition: -120
+UnderlineWidth: 130
+Ascent: 1638
+Descent: 410
+sfntRevision: 0x00010106
+LayerCount: 2
+Layer: 0 1 "Back"  1
+Layer: 1 1 "Fore"  0
+XUID: [1021 372 1835134888 23429]
+FSType: 0
+OS2Version: 3
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1408015747
+ModificationTime: 1409346498
+PfmFamily: 17
+TTFWeight: 900
+TTFWidth: 5
+LineGap: 0
+VLineGap: 0
+Panose: 2 6 5 9 0 0 0 2 0 4
+OS2TypoAscent: 1421
+OS2TypoAOffset: 0
+OS2TypoDescent: -643
+OS2TypoDOffset: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 1797
+OS2WinAOffset: 0
+OS2WinDescent: 839
+OS2WinDOffset: 0
+HheadAscent: 1421
+HheadAOffset: 0
+HheadDescent: -643
+HheadDOffset: 0
+OS2SubXSize: 1434
+OS2SubYSize: 1331
+OS2SubXOff: 0
+OS2SubYOff: 293
+OS2SupXSize: 1434
+OS2SupYSize: 1331
+OS2SupXOff: 0
+OS2SupYOff: 928
+OS2StrikeYSize: 102
+OS2StrikeYPos: 512
+OS2FamilyClass: 1285
+OS2Vendor: 'RAH7'
+OS2CodePages: 00000093.00000000
+OS2UnicodeRanges: a00000af.500068fb.00000000.00000000
+DEI: 91125
+TtTable: prep
+PUSHW_1
+ 0
+CALL
+SVTCA[y-axis]
+PUSHW_3
+ 1
+ 4
+ 7
+CALL
+PUSHW_1
+ 0
+DUP
+RCVT
+RDTG
+ROUND[Black]
+RTG
+WCVTP
+EndTTInstrs
+TtTable: fpgm
+PUSHW_1
+ 0
+FDEF
+MPPEM
+PUSHW_1
+ 9
+LT
+IF
+PUSHB_2
+ 1
+ 1
+INSTCTRL
+EIF
+PUSHW_1
+ 511
+SCANCTRL
+PUSHW_1
+ 68
+SCVTCI
+PUSHW_2
+ 9
+ 3
+SDS
+SDB
+ENDF
+PUSHW_1
+ 1
+FDEF
+DUP
+DUP
+RCVT
+ROUND[Black]
+WCVTP
+PUSHB_1
+ 1
+ADD
+ENDF
+PUSHW_1
+ 2
+FDEF
+PUSHW_1
+ 1
+LOOPCALL
+POP
+ENDF
+PUSHW_1
+ 3
+FDEF
+DUP
+GC[cur]
+PUSHB_1
+ 3
+CINDEX
+GC[cur]
+GT
+IF
+SWAP
+EIF
+DUP
+ROLL
+DUP
+ROLL
+MD[grid]
+ABS
+ROLL
+DUP
+GC[cur]
+DUP
+ROUND[Grey]
+SUB
+ABS
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+DUP
+ROUND[Grey]
+SUB
+ABS
+GT
+IF
+SWAP
+NEG
+ROLL
+EIF
+MDAP[rnd]
+DUP
+PUSHB_1
+ 0
+GTEQ
+IF
+ROUND[Black]
+DUP
+PUSHB_1
+ 0
+EQ
+IF
+POP
+PUSHB_1
+ 64
+EIF
+ELSE
+ROUND[Black]
+DUP
+PUSHB_1
+ 0
+EQ
+IF
+POP
+PUSHB_1
+ 64
+NEG
+EIF
+EIF
+MSIRP[no-rp0]
+ENDF
+PUSHW_1
+ 4
+FDEF
+DUP
+GC[cur]
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+GT
+IF
+SWAP
+ROLL
+EIF
+DUP
+GC[cur]
+DUP
+ROUND[White]
+SUB
+ABS
+PUSHB_1
+ 4
+CINDEX
+GC[cur]
+DUP
+ROUND[White]
+SUB
+ABS
+GT
+IF
+SWAP
+ROLL
+EIF
+MDAP[rnd]
+MIRP[rp0,min,rnd,black]
+ENDF
+PUSHW_1
+ 5
+FDEF
+MPPEM
+DUP
+PUSHB_1
+ 3
+MINDEX
+LT
+IF
+LTEQ
+IF
+PUSHB_1
+ 128
+WCVTP
+ELSE
+PUSHB_1
+ 64
+WCVTP
+EIF
+ELSE
+POP
+POP
+DUP
+RCVT
+PUSHB_1
+ 192
+LT
+IF
+PUSHB_1
+ 192
+WCVTP
+ELSE
+POP
+EIF
+EIF
+ENDF
+PUSHW_1
+ 6
+FDEF
+DUP
+DUP
+RCVT
+ROUND[Black]
+WCVTP
+PUSHB_1
+ 1
+ADD
+DUP
+DUP
+RCVT
+RDTG
+ROUND[Black]
+RTG
+WCVTP
+PUSHB_1
+ 1
+ADD
+ENDF
+PUSHW_1
+ 7
+FDEF
+PUSHW_1
+ 6
+LOOPCALL
+ENDF
+PUSHW_1
+ 8
+FDEF
+MPPEM
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+PUSHB_1
+ 64
+ELSE
+PUSHB_1
+ 0
+EIF
+ROLL
+ROLL
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHB_1
+ 128
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 192
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 256
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHB_1
+ 3
+MINDEX
+GTEQ
+IF
+SWAP
+POP
+PUSHW_1
+ 320
+ROLL
+ROLL
+ELSE
+ROLL
+SWAP
+EIF
+DUP
+PUSHW_1
+ 3
+MINDEX
+GTEQ
+IF
+PUSHB_1
+ 3
+CINDEX
+RCVT
+PUSHW_1
+ 384
+LT
+IF
+SWAP
+POP
+PUSHW_1
+ 384
+SWAP
+POP
+ELSE
+PUSHB_1
+ 3
+CINDEX
+RCVT
+SWAP
+POP
+SWAP
+POP
+EIF
+ELSE
+POP
+EIF
+WCVTP
+ENDF
+PUSHW_1
+ 9
+FDEF
+MPPEM
+GTEQ
+IF
+RCVT
+WCVTP
+ELSE
+POP
+POP
+EIF
+ENDF
+EndTTInstrs
+ShortTable: cvt  9
+  42
+  0
+  35
+  -268
+  0
+  883
+  36
+  1153
+  35
+EndShort
+ShortTable: maxp 16
+  1
+  0
+  2
+  84
+  5
+  0
+  0
+  1
+  0
+  0
+  10
+  0
+  512
+  452
+  0
+  0
+EndShort
+LangName: 1033 "" "" "" "RichardAlexanderHall: Courier Mega SS Black 1000wt Black: 2014" "" "Version 1.004 2014" "" "Courier Mega RS and SS are trademarks of Richard Alexander Hall." "Richard Alexander Hall" "Richard Alexander Hall" "Copyright (c) 2014 by Richard Alexander Hall. Released under the GNU GPL v3 or later with the font exception." "http://www.earthbound.io" "http://www.earthbound.io" "Courier Mega SS and Courier Mega RS Font Families by Richard Alexander Hall are licensed under the GNU GPL v3 or later with the font exception." "http://www.gnu.org/licenses/" "" "" "" "Courier Mega SS Black 1000wt Black" 
+GaspTable: 3 8 2 16 1 65535 3 0
+Encoding: UnicodeBmp
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -48
+AntiAlias: 1
+FitToEm: 1
+WinInfo: 0 16 4
+BeginChars: 65537 2
+
+StartChar: .notdef
+Encoding: 65536 -1 0
+Width: 1024
+Flags: W
+LayerCount: 2
+EndChar
+
+StartChar: percent
+Encoding: 37 37 1
+Width: 1229
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+116 919 m 256,0,1
+ 116 1024 116 1024 189 1097 c 128,-1,2
+ 262 1170 262 1170 367 1170 c 256,3,4
+ 472 1170 472 1170 545 1097 c 128,-1,5
+ 618 1024 618 1024 618 919 c 256,6,7
+ 618 814 618 814 545 741 c 128,-1,8
+ 472 668 472 668 367 668 c 256,9,10
+ 262 668 262 668 189 741 c 128,-1,11
+ 116 814 116 814 116 919 c 256,0,1
+509 264 m 256,12,13
+ 509 367 509 367 581.5 439.5 c 128,-1,14
+ 654 512 654 512 757 512 c 256,15,16
+ 860 512 860 512 932.5 439.5 c 128,-1,17
+ 1005 367 1005 367 1005 264 c 256,18,19
+ 1005 161 1005 161 932.5 88.5 c 128,-1,20
+ 860 16 860 16 757 16 c 256,21,22
+ 654 16 654 16 581.5 88.5 c 128,-1,23
+ 509 161 509 161 509 264 c 256,12,13
+201 354 m 1,24,-1
+ 135 500 l 1,25,-1
+ 954 860 l 1,26,-1
+ 1018 717 l 1,27,-1
+ 201 354 l 1,24,-1
+253 921 m 256,28,29
+ 253 873 253 873 278 848 c 0,30,31
+ 321 805 321 805 369 805 c 256,32,33
+ 417 805 417 805 442 830 c 0,34,35
+ 485 873 485 873 485 921 c 256,36,37
+ 485 969 485 969 460 994 c 0,38,39
+ 417 1037 417 1037 369 1037 c 256,40,41
+ 321 1037 321 1037 296 1012 c 0,42,43
+ 253 969 253 969 253 921 c 256,28,29
+643 264 m 256,44,45
+ 643 216 643 216 668 191 c 0,46,47
+ 711 148 711 148 759 148 c 256,48,49
+ 807 148 807 148 832 173 c 0,50,51
+ 875 216 875 216 875 264 c 256,52,53
+ 875 312 875 312 850 337 c 0,54,55
+ 807 380 807 380 759 380 c 256,56,57
+ 711 380 711 380 686 355 c 0,58,59
+ 643 312 643 312 643 264 c 256,44,45
+EndSplineSet
+EndChar
+EndChars
+EndSplineFont

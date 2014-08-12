@@ -1,0 +1,17 @@
+These may not be production-ready fonts.
+
+TO DO:
+Needed improvements are (or may be):
+
+  Glyph consistency, and a widened or improved glyph set.
+  Font info fixup for systems compatibility/technical correctness. It sometimes seems flaky on my system--Windows' Word displayed the proper fonts for export to a .pdf preview, while LibreOffice did not--but then other times LibreOffice did--but it might just be that my own computer system is finicky.
+  New hinting. The SS ultralight exported master can look really choppy. (Everything is hinted with ttfautohint).
+  The (presently) reworked exclamation and asterisk light/black master glyphs for the SS family to be reintegrated into the Multiple Master.
+  Re-weighting.
+
+I'd love to take the light and black masters for both RS and SS and create FontForge Multiple Masters with them, but I haven't the time or expertise.
+
+DEV NOTES:
+The rounded slabs of the RS family of Courier Mega were created by passing lighter weights of the Square Slab variant through FontForge's, uh...one of FontForge's features :)
+
+To obtain the same line spacing as Courier New, copy the "TrueType-specific metrics" font information page from Courier New. All the other font metrics can be customized/auto-calculated. Only for the regular weight, though. For bold, you have to calculate/customize those.
